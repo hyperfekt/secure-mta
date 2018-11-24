@@ -5,4 +5,6 @@ authors = ["hyperfekt <adni.online@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-futures-preview = { version = "0.3.0-alpha.9", default-features = true }
+futures-preview = { git = "https://github.com/rust-lang-nursery/futures-rs" }
+futures-util-preview = { git = "https://github.com/rust-lang-nursery/futures-rs" }
+fahrenheit = { git = "https://github.com/hyperfekt/fahrenheit", branch = "alpha9" }
